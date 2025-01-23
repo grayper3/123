@@ -165,7 +165,7 @@ export default function Menu() {
                       animate={{ opacity: 1 }}
                       transition={{ delay: index * 0.1 + 0.3 }}
                     >
-                      {item.price.toFixed(1)} تومان
+                      {item.price} تومان
                     </motion.span>
                     <motion.div
                       className="border-b border-dotted border-gray-600 flex-1 mx-4"
